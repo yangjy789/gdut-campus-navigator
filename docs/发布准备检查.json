@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-11-24",
+  "branding": {
+    "visitor_page": "passed",
+    "admin_page": "passed",
+    "favicon": "configured",
+    "source": "https://www.gdut.edu.cn/xxgk/xhxxxg.htm",
+    "frontend_build": "passed"
+  },
+  "git": {
+    "local_repository": "initialized",
+    "branch": "main",
+    "initial_commit": "c56dbac101053dbfe5fcf2a233c12152d82cde9f",
+    "secret_value_scan": "passed",
+    "github_remote_created": false,
+    "github_push": false,
+    "github_actions": "configured_not_run"
+  },
+  "https": {
+    "production_compose_validation": "passed",
+    "secure_cookie_origin_check": "passed_locally",
+    "temporary_hostname_allocated": true,
+    "stable_public_access": "not_passed",
+    "last_public_error": "Cloudflare 1033; edge connection interrupted",
+    "temporary_tunnel": "stopped_after_failed_acceptance",
+    "server_and_domain": "not_available"
+  },
+  "blocking_conditions": [
+    "GitHub MCP/browser/device authentication connections failed",
+    "No reusable GitHub login credential",
+    "Temporary tunnel cannot maintain edge connection"
+  ]
+}

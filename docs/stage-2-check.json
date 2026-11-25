@@ -1,0 +1,20 @@
+{
+  "storage": "mysql",
+  "server_version": "8.0.46",
+  "place_count": 12,
+  "road_count": 18,
+  "reconnect_read": true,
+  "seed_idempotent": true,
+  "negative_distance_rejected": true,
+  "status": "passed",
+  "http_health": {
+    "status": "ok",
+    "dataset_type": "course_demo",
+    "storage": "database",
+    "place_count": 12,
+    "real_navigation_ready": false
+  },
+  "http_search": true,
+  "http_detail": true,
+  "http_docs_status": 200
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "live_route_assistant_only",
+  "service": {
+    "provider": "硅基流动",
+    "model": "XingChenAGI/Xing4.0-29B",
+    "tool": "plan_route",
+    "configured": true
+  },
+  "live_http_status": 200,
+  "planned_route": {
+    "question": "从北门到食堂怎么走",
+    "start_place": "北门",
+    "end_place": "食堂",
+    "distance_m": 290,
+    "path": [
+      "NG",
+      "LIB",
+      "SC",
+      "DIN"
+    ],
+    "extraction_method": "model_tool",
+    "tool_used": true
+  },
+  "ambiguous_and_unknown_refused": true
+}

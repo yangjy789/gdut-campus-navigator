@@ -1,0 +1,15 @@
+{
+  "status": "demo_frontend_passed",
+  "frontend_url": "http://127.0.0.1:5173/",
+  "backend_version": "0.4.0",
+  "typescript_and_build": "passed",
+  "backend_tests_passed": 30,
+  "http_frontend_status": 200,
+  "proxy_road_count": 18,
+  "proxy_route_distance_m": 290,
+  "browser_checked": ["Chinese alias search", "place details", "set origin", "clear stale route", "Library to DiningHall 170m", "NorthGate to DiningHall 290m", "route highlighting", "label overlap corrected"],
+  "mobile_viewport_tested": false,
+  "real_navigation_ready": false,
+  "map_mode": "Leaflet CRS.Simple with artificial layout",
+  "screenshot": "阶段4网页预览.png"
+}

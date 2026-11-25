@@ -1,0 +1,60 @@
+{
+  "local_backend_tests_passed": 97,
+  "frontend_build": "passed",
+  "docker_build": "passed",
+  "checks": [
+    {
+      "port": 5173,
+      "question": "从北门到食堂怎么走",
+      "status": "planned",
+      "extraction_method": "explicit_pattern",
+      "tool_used": false
+    },
+    {
+      "port": 5173,
+      "question": "从图书馆或北门到食堂",
+      "status": "need_clarification",
+      "extraction_method": "none",
+      "tool_used": false
+    },
+    {
+      "port": 5173,
+      "question": "从图书馆附近的咖啡店到食堂",
+      "status": "need_clarification",
+      "extraction_method": "none",
+      "tool_used": false
+    },
+    {
+      "port": 8080,
+      "question": "从北门到食堂怎么走",
+      "status": "planned",
+      "extraction_method": "model_tool",
+      "tool_used": true
+    },
+    {
+      "port": 8080,
+      "question": "从图书馆或北门到食堂",
+      "status": "need_clarification",
+      "extraction_method": "none",
+      "tool_used": false
+    },
+    {
+      "port": 8080,
+      "question": "从图书馆附近的咖啡店到食堂",
+      "status": "need_clarification",
+      "extraction_method": "none",
+      "tool_used": false
+    }
+  ],
+  "container_backend_tests_passed": 97,
+  "database_migration": "0003",
+  "live_knowledge_check": "passed",
+  "live_route_check": "passed",
+  "post_restart_health": {
+    "status": "ok",
+    "dataset_type": "course_demo",
+    "storage": "database",
+    "place_count": 12,
+    "real_navigation_ready": false
+  }
+}

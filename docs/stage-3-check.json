@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "tests_passed": 29,
+  "independent_all_pairs_checked": 144,
+  "storage": "mysql",
+  "http_route": {
+    "dataset_type": "course_demo",
+    "real_navigation_ready": false,
+    "algorithm": "dijkstra",
+    "start_id": 0,
+    "end_id": 6,
+    "distance_m": 290,
+    "path": [
+      {
+        "id": 0,
+        "code": "NG",
+        "name": "NorthGate",
+        "description": "Main entrance of the campus.",
+        "latitude": null,
+        "longitude": null,
+        "verification_status": "demo_only"
+      },
+      {
+        "id": 1,
+        "code": "LIB",
+        "name": "Library",
+        "description": "Books, reading rooms and study area.",
+        "latitude": null,
+        "longitude": null,
+        "verification_status": "demo_only"
+      },
+      {
+        "id": 5,
+        "code": "SC",
+        "name": "StudentCenter",
+        "description": "Student activity and service center.",
+        "latitude": null,
+        "longitude": null,
+        "verification_status": "demo_only"
+      },
+      {
+        "id": 6,
+        "code": "DIN",
+        "name": "DiningHall",
+        "description": "Dining hall for students and visitors.",
+        "latitude": null,
+        "longitude": null,
+        "verification_status": "demo_only"
+      }
+    ],
+    "segments": [
+      {
+        "road_id": 0,
+        "start_id": 0,
+        "end_id": 1,
+        "distance_m": 120
+      },
+      {
+        "road_id": 4,
+        "start_id": 1,
+        "end_id": 5,
+        "distance_m": 110
+      },
+      {
+        "road_id": 11,
+        "start_id": 5,
+        "end_id": 6,
+        "distance_m": 60
+      }
+    ]
+  },
+  "reverse_route": true,
+  "same_node": true,
+  "missing_node_status": 404,
+  "invalid_parameter_status": 422
+}

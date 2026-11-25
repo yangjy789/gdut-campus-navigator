@@ -1,0 +1,26 @@
+{
+  "health": {
+    "status": "ok",
+    "dataset_type": "course_demo",
+    "place_count": 12,
+    "real_navigation_ready": false
+  },
+  "search": {
+    "dataset_type": "course_demo",
+    "real_navigation_ready": false,
+    "total": 1,
+    "items": [
+      {
+        "id": 1,
+        "code": "LIB",
+        "name": "Library",
+        "description": "Books, reading rooms and study area.",
+        "latitude": null,
+        "longitude": null,
+        "verification_status": "demo_only"
+      }
+    ]
+  },
+  "docs_status": 200,
+  "checked_at": "2026-11-21"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "partial_real_data_integrated",
+  "backend_tests_passed": 100,
+  "container_tests_passed": 100,
+  "frontend_build": "passed",
+  "docker_build": "passed",
+  "source": "https://www.gdut.edu.cn/info/1715/23413.htm",
+  "public_place_count": 51,
+  "planned_count": 1,
+  "knowledge_document_count": 58,
+  "coordinate_system": "official_map_image_pixels",
+  "road_count": 0,
+  "real_navigation_ready": false,
+  "demo_database_place_count": 12,
+  "map_integrity": "passed",
+  "post_update_live_check": "passed",
+  "related_tests_after_name_scope_correction": 21,
+  "browser_checks": [
+    "name_search",
+    "region_filter",
+    "planned_hidden_by_default",
+    "planned_toggle",
+    "map_selection",
+    "demo_mode_isolated"
+  ],
+  "live_qa": {
+    "question": "工大广场原来叫什么？",
+    "answer": "工大广场原名为正门广场。",
+    "official_source_expanded": true
+  },
+  "screenshots": [
+    "docs/阶段7.5官方资料预览.jpg",
+    "docs/阶段7.5真实资料问答.jpg"
+  ]
+}

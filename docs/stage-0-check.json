@@ -1,0 +1,14 @@
+{
+  "place_count": 12,
+  "road_count": 18,
+  "connected": true,
+  "real_navigation_ready": false,
+  "source_sha256": "5b1837ce5adcef3587f738b3d8c62549e38293850603ff68a98b7abd6c381d29",
+  "checks": [
+    "unique IDs and codes",
+    "valid endpoints",
+    "positive distances",
+    "no duplicate roads",
+    "connected graph"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "live_assistant_only",
+  "service": {
+    "provider": "硅基流动",
+    "model": "XingChenAGI/Xing4.0-29B",
+    "configured": true,
+    "document_count": 7,
+    "retrieval_method": "local_lexical_hash_chroma"
+  },
+  "live_http_status": 200,
+  "status": "passed",
+  "answer": {
+    "answer": "广东工业大学大学城校区位于广州市番禺区大学城外环西路100号。",
+    "status": "answered",
+    "sources": [
+      {
+        "id": "campus-address",
+        "title": "大学城校区地址",
+        "content": "广东工业大学大学城校区位于广州市番禺区大学城外环西路100号。学校保卫处的校区信息页也将此处列为大学城校区的户籍地址。",
+        "source_url": "https://bwc.gdut.edu.cn/fwzn/xxgxqssgajgjhjdz.htm",
+        "source_type": "official",
+        "verified_on": "2026-11-21"
+      }
+    ],
+    "model": "XingChenAGI/Xing4.0-29B",
+    "retrieval_method": "local_lexical_hash_chroma"
+  },
+  "no_evidence_refusal": true
+}

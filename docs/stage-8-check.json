@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "detail": "2026-11-23 本机安装 Docker Desktop 4.99.0（WSL2 后端）后完成真实验收：三容器构建成功、启动健康、迁移与示例数据导入完成、前端 8080 与 /api 反代可访问、容器内 AI 问答与路线规划真实调用通过、容器内 84 项测试全过。镜像通过国内源（daocloud/1ms.run）拉取，pip 用清华源、npm 用淘宝源构建。",
+  "static_checks": {
+    "compose_yaml_parsed": true,
+    "services": ["db", "backend", "frontend"],
+    "entrypoint_sh_syntax": "passed",
+    "dockerfile_copy_sources_present": true,
+    "lockfile_key_dependencies_present": true,
+    "config_works_without_env_file_using_env_vars_only": true
+  },
+  "runtime_verification": {
+    "docker_compose_build": "passed",
+    "docker_compose_up_and_healthcheck": "passed（db healthy, backend Application startup complete, frontend up）",
+    "container_db_migration_and_seed": "passed（12 places, 18 roads 导入；管理员幂等创建）",
+    "frontend_8080_and_api_proxy": "passed（HTTP 200；/api/health 返回 place_count=12）",
+    "container_ai_qa": "passed（大学城校区地址问题返回正确答案）",
+    "container_ai_route": "passed（北门→食堂 290 米，工具调用真实生效）",
+    "container_pytest": "84 passed"
+  },
+  "images": {
+    "ai-backend": "built",
+    "ai-frontend": "built",
+    "mysql:8.0": "pulled via docker.1ms.run",
+    "python:3.13-slim": "pulled via docker.m.daocloud.io",
+    "node:22-alpine": "pulled via docker.m.daocloud.io",
+    "nginx:1.27-alpine": "pulled via docker.m.daocloud.io"
+  },
+  "build_notes": [
+    "基础镜像在国内网络下无法直连 Docker Hub，改为国内镜像源拉取后打官方 tag，Dockerfile 未改动基础镜像名。",
+    "backend/Dockerfile 增加 ARG PIP_INDEX_URL（默认清华源），frontend/Dockerfile 增加 ARG NPM_REGISTRY（默认淘宝源），便于国内构建，可用构建参数覆盖。",
+    "backend/Dockerfile 预创建 /app/.runtime/chroma 并 chown 给 appuser，解决命名卷 root 属主导致非 root 用户无法写入的问题。",
+    "宿主机 8000 端口需空闲（若本地 uvicorn 正在运行需先停止），否则 backend 端口映射失败。",
+    "Docker Desktop 4.99 sailor 引擎在首次安装异常时会遗留 sailor-ingest.sock 重解析点，需管理员权限清理，见 scripts/docker_fix_windows.ps1。"
+  ],
+  "backend_tests_passed": 84,
+  "frontend_build": "passed"
+}

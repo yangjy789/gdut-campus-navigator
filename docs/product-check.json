@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-11-24",
+  "local_tests_passed": 107,
+  "container_tests_passed": 107,
+  "database_migration": "0004",
+  "campus_place_count": 51,
+  "public_admin_catalog_consistency": "passed",
+  "live_admin_login_logout": "passed",
+  "frontend_build": "passed",
+  "third_party_link_http_status": 200,
+  "third_party_navigation": "name-based walking map handoff; no local metric distance",
+  "real_navigation_ready": false,
+  "visitor_bundle_old_copy_removed": true,
+  "container_build": "passed",
+  "browser_favorites_persistence": "passed",
+  "browser_favorites_filter": "passed",
+  "browser_old_copy_check": "passed",
+  "browser_navigation_card": "passed",
+  "browser_admin_entry": "passed",
+  "live_qa": {
+    "question": "工大广场原来叫什么？",
+    "answer_contains": "正门广场",
+    "source": "public-place-university-square"
+  },
+  "live_ai_route": {
+    "question": "我在南门，想去图书馆",
+    "start": "南门",
+    "end": "图书馆",
+    "result": "navigation_ready"
+  },
+  "screenshots": [
+    "docs/统一产品首页.jpg",
+    "docs/统一产品问答.jpg",
+    "docs/统一产品智能问路.jpg"
+  ]
+}

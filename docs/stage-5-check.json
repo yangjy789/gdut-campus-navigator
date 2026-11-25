@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "storage": "mysql",
+  "backend_tests_passed": 48,
+  "login_logout": true,
+  "unauthorized_rejected": true,
+  "place_crud": true,
+  "road_crud": true,
+  "duplicate_road_rejected": true,
+  "linked_delete_rejected": true,
+  "changed_road_used_by_routing": true,
+  "temporary_records_cleaned": true,
+  "original_route_distance_m": 290,
+  "browser_login": true,
+  "browser_edit_form": true,
+  "browser_save": true,
+  "frontend_build": "passed",
+  "screenshot": "阶段5后台预览.png"
+}
