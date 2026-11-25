@@ -1,0 +1,15 @@
+import { createApp } from 'vue'
+import { ElButton, ElInput, ElSelect, ElOption } from 'element-plus'
+import 'element-plus/es/components/base/style/css'
+import 'element-plus/es/components/button/style/css'
+import 'element-plus/es/components/input/style/css'
+import 'element-plus/es/components/select/style/css'
+import 'element-plus/es/components/option/style/css'
+import 'leaflet/dist/leaflet.css'
+import './style.css'
+import './admin.css'
+import './assistant.css'
+import App from './App.vue'
+import AdminApp from './AdminApp.vue'
+
+createApp(window.location.pathname.startsWith('/admin') ? AdminApp : App).use(ElButton).use(ElInput).use(ElSelect).use(ElOption).mount('#app')
