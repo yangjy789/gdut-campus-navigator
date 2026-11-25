@@ -1,0 +1,261 @@
+{
+  "dataset_type": "course_demo",
+  "coordinate_system": null,
+  "warning": "Not verified GDUT campus locations or distances.",
+  "places": [
+    {
+      "id": 0,
+      "code": "NG",
+      "name": "NorthGate",
+      "description": "Main entrance of the campus.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 1,
+      "code": "LIB",
+      "name": "Library",
+      "description": "Books, reading rooms and study area.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 2,
+      "code": "TA",
+      "name": "TeachingA",
+      "description": "General teaching building A.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 3,
+      "code": "TB",
+      "name": "TeachingB",
+      "description": "General teaching building B.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 4,
+      "code": "LAB",
+      "name": "LabBuilding",
+      "description": "Laboratories and innovation rooms.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 5,
+      "code": "SC",
+      "name": "StudentCenter",
+      "description": "Student activity and service center.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 6,
+      "code": "DIN",
+      "name": "DiningHall",
+      "description": "Dining hall for students and visitors.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 7,
+      "code": "DOR",
+      "name": "Dormitory",
+      "description": "Student dormitory area.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 8,
+      "code": "SP",
+      "name": "SportsField",
+      "description": "Sports field and outdoor activity area.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 9,
+      "code": "ADM",
+      "name": "Administration",
+      "description": "Administrative service building.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 10,
+      "code": "SG",
+      "name": "SouthGate",
+      "description": "South entrance of the campus.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 11,
+      "code": "LAK",
+      "name": "LakeGarden",
+      "description": "Lakeside garden and walking area.",
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "demo_only"
+    }
+  ],
+  "roads": [
+    {
+      "id": 0,
+      "start_id": 0,
+      "end_id": 1,
+      "distance_m": 120,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 1,
+      "start_id": 0,
+      "end_id": 9,
+      "distance_m": 160,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 2,
+      "start_id": 0,
+      "end_id": 11,
+      "distance_m": 180,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 3,
+      "start_id": 1,
+      "end_id": 2,
+      "distance_m": 90,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 4,
+      "start_id": 1,
+      "end_id": 5,
+      "distance_m": 110,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 5,
+      "start_id": 2,
+      "end_id": 3,
+      "distance_m": 80,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 6,
+      "start_id": 2,
+      "end_id": 4,
+      "distance_m": 100,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 7,
+      "start_id": 2,
+      "end_id": 9,
+      "distance_m": 140,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 8,
+      "start_id": 3,
+      "end_id": 6,
+      "distance_m": 120,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 9,
+      "start_id": 4,
+      "end_id": 5,
+      "distance_m": 70,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 10,
+      "start_id": 4,
+      "end_id": 8,
+      "distance_m": 150,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 11,
+      "start_id": 5,
+      "end_id": 6,
+      "distance_m": 60,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 12,
+      "start_id": 5,
+      "end_id": 7,
+      "distance_m": 130,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 13,
+      "start_id": 6,
+      "end_id": 10,
+      "distance_m": 180,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 14,
+      "start_id": 7,
+      "end_id": 8,
+      "distance_m": 90,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 15,
+      "start_id": 8,
+      "end_id": 10,
+      "distance_m": 100,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 16,
+      "start_id": 9,
+      "end_id": 11,
+      "distance_m": 100,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    },
+    {
+      "id": 17,
+      "start_id": 10,
+      "end_id": 11,
+      "distance_m": 140,
+      "bidirectional": true,
+      "verification_status": "demo_only"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "campus": "广东工业大学大学城校区",
+  "checked_on": "2026-11-23",
+  "status": "official_reference_integrated_geographic_roads_pending",
+  "sources": [
+    {
+      "url": "https://www.gdut.edu.cn/info/1899/9554.htm",
+      "title": "大学城校区平面图",
+      "published_on": "2020-05-14",
+      "usage": "建筑和道路采集参考入口；尚未提取图中地点；当前通行状况需核实"
+    },
+    {
+      "url": "https://bwc.gdut.edu.cn/fwzn/xxgxqssgajgjhjdz.htm",
+      "title": "学校各校区所属公安机关及户籍地址",
+      "verified_fact": "大学城校区户籍地址为广州市番禺区大学城外环西路100号"
+    },
+    {
+      "url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "title": "大学城校区新增建筑、景观命名公告与2026校园地图附件",
+      "published_on": "2026-01-07",
+      "usage": "已整理51条地点资料和图上近似标记；不作为经纬度或道路测距依据"
+    }
+  ],
+  "places": [],
+  "roads": [],
+  "place_required_fields": [
+    "id",
+    "name",
+    "category",
+    "latitude",
+    "longitude",
+    "coordinate_system",
+    "source_url",
+    "verified_on",
+    "verification_status"
+  ],
+  "road_required_fields": [
+    "id",
+    "start_node_id",
+    "end_node_id",
+    "distance_m",
+    "bidirectional",
+    "walkable",
+    "geometry",
+    "source_url",
+    "verified_on"
+  ],
+  "rules": [
+    "建筑入口和道路交叉口作为图节点，地点关联入口节点",
+    "距离依据道路折线或实测记录，不用建筑中心直线替代道路",
+    "原始坐标必须记录坐标系，显示时统一转换，禁止混用 WGS84 和 GCJ02",
+    "核实开放时间与步行通行限制，未知值不能猜测",
+    "地图、图片和瓦片的使用许可及署名要求在公开部署前确认"
+  ],
+  "public_reference_dataset": "data/public_campus/campus.json"
+}

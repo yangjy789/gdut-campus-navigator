@@ -1,0 +1,1021 @@
+{
+  "dataset_type": "official_public_reference",
+  "campus": "广东工业大学大学城校区",
+  "real_navigation_ready": false,
+  "coordinate_system": "official_map_image_pixels",
+  "map": {
+    "width": 1317,
+    "height": 2000,
+    "image_url": "/api/campus/real/map",
+    "position_accuracy": "manual_approximate_symbol_center"
+  },
+  "sources": [
+    {
+      "title": "大学城校区新增建筑、景观命名公告",
+      "url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "published_on": "2026-01-07"
+    },
+    {
+      "title": "附件1：大学城校区地图示意图",
+      "url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "page": 1,
+      "sha256": "08d4565be86073ad21c2f70bf9b49317a57c7f8c45ab739750253d4a185116c2"
+    }
+  ],
+  "attribution": "底图来源：广东工业大学官方地图附件；图文版权归原权利人。",
+  "limitations": [
+    "图上定位为手工标注的近似符号中心，不是经纬度或建筑入口。",
+    "资料已与官网文件核对，未实地核验；没有开放时间及实时通行信息。",
+    "官方示意图没有可直接使用的道路测距，不提供真实路线与距离。"
+  ],
+  "places": [
+    {
+      "id": "south-gate",
+      "name": "南门",
+      "region": "教学区",
+      "category": "出入口",
+      "image_position": {
+        "x": 593,
+        "y": 1153
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-gate",
+      "name": "东门",
+      "region": "教学区",
+      "category": "出入口",
+      "image_position": {
+        "x": 1204,
+        "y": 1025
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-west-gate",
+      "name": "教学区西北门",
+      "region": "教学区",
+      "category": "出入口",
+      "image_position": {
+        "x": 495,
+        "y": 465
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "library",
+      "name": "图书馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 780,
+        "y": 886
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "history",
+      "name": "校史馆",
+      "region": "教学区",
+      "category": "文化",
+      "image_position": {
+        "x": 705,
+        "y": 838
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "administration",
+      "name": "行政楼",
+      "region": "教学区",
+      "category": "服务",
+      "image_position": {
+        "x": 653,
+        "y": 1073
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "comprehensive",
+      "name": "综合楼",
+      "region": "教学区",
+      "category": "服务",
+      "image_position": {
+        "x": 658,
+        "y": 1030
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "conference",
+      "name": "会议中心",
+      "region": "教学区",
+      "category": "服务",
+      "image_position": {
+        "x": 725,
+        "y": 1158
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "science",
+      "name": "理学馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 908,
+        "y": 1183
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-1",
+      "name": "教学一号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 1087,
+        "y": 887
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-2",
+      "name": "教学二号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 987,
+        "y": 843
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-3",
+      "name": "教学三号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 891,
+        "y": 811
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-4",
+      "name": "教学四号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 971,
+        "y": 811
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-5",
+      "name": "教学五号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 852,
+        "y": 782
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "teaching-6",
+      "name": "教学六号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 893,
+        "y": 754
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "engineering-1",
+      "name": "工学一号馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 815,
+        "y": 1135
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "engineering-2",
+      "name": "工学二号馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 845,
+        "y": 1077
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "engineering-3",
+      "name": "工学三号馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 916,
+        "y": 1043
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "engineering-4",
+      "name": "工学四号馆",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 947,
+        "y": 1002
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "experiment-1",
+      "name": "实验一号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 998,
+        "y": 1108
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "experiment-2",
+      "name": "实验二号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 1045,
+        "y": 1071
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "experiment-3",
+      "name": "实验三号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 1056,
+        "y": 1035
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "experiment-4",
+      "name": "实验四号楼",
+      "region": "教学区",
+      "category": "学习",
+      "image_position": {
+        "x": 1088,
+        "y": 1008
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "qiushi-a",
+      "name": "求是科技楼A座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1167,
+        "y": 840
+      },
+      "aliases": [
+        "新科技大楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "qiushi-b",
+      "name": "求是科技楼B座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1159,
+        "y": 799
+      },
+      "aliases": [
+        "新科技大楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "innovation-a",
+      "name": "创新科技楼A座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1072,
+        "y": 780
+      },
+      "aliases": [
+        "科创实训楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "innovation-b",
+      "name": "创新科技楼B座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 996,
+        "y": 751
+      },
+      "aliases": [
+        "科创实训楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "lide-a",
+      "name": "立德科技楼A座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1142,
+        "y": 1195
+      },
+      "aliases": [
+        "科技南楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "lide-b",
+      "name": "立德科技楼B座",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1158,
+        "y": 1159
+      },
+      "aliases": [
+        "科技北楼"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "culture",
+      "name": "文化活动中心",
+      "region": "教学区",
+      "category": "文化",
+      "image_position": {
+        "x": 685,
+        "y": 662
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "gym",
+      "name": "体育馆",
+      "region": "教学区",
+      "category": "运动",
+      "image_position": {
+        "x": 511,
+        "y": 541
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "stadium",
+      "name": "中心田径场",
+      "region": "教学区",
+      "category": "运动",
+      "image_position": {
+        "x": 595,
+        "y": 624
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "cricket",
+      "name": "板球场",
+      "region": "教学区",
+      "category": "运动",
+      "image_position": {
+        "x": 252,
+        "y": 477
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "tennis",
+      "name": "网球场",
+      "region": "教学区",
+      "category": "运动",
+      "image_position": {
+        "x": 396,
+        "y": 493
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "university-square",
+      "name": "工大广场",
+      "region": "教学区",
+      "category": "景观",
+      "image_position": {
+        "x": 625,
+        "y": 1191
+      },
+      "aliases": [
+        "正门广场"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "lake",
+      "name": "团结湖",
+      "region": "教学区",
+      "category": "景观",
+      "image_position": {
+        "x": 489,
+        "y": 1002
+      },
+      "aliases": [
+        "人工湖"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "qinfen-square",
+      "name": "勤奋广场",
+      "region": "教学区",
+      "category": "景观",
+      "image_position": {
+        "x": 947,
+        "y": 931
+      },
+      "aliases": [
+        "创新大道东侧广场"
+      ],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-canteen-1",
+      "name": "东一食堂",
+      "region": "生活东区",
+      "category": "生活",
+      "image_position": {
+        "x": 1118,
+        "y": 500
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-canteen-2",
+      "name": "东二食堂",
+      "region": "生活东区",
+      "category": "生活",
+      "image_position": {
+        "x": 750,
+        "y": 535
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "hospital",
+      "name": "医院",
+      "region": "生活东区",
+      "category": "服务",
+      "image_position": {
+        "x": 1040,
+        "y": 454
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-service",
+      "name": "东区服务中心",
+      "region": "生活东区",
+      "category": "服务",
+      "image_position": {
+        "x": 1061,
+        "y": 477
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "mental-health",
+      "name": "心理健康教育中心",
+      "region": "生活东区",
+      "category": "服务",
+      "image_position": {
+        "x": 961,
+        "y": 552
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-west-gate",
+      "name": "东区西门",
+      "region": "生活东区",
+      "category": "出入口",
+      "image_position": {
+        "x": 746,
+        "y": 468
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "east-east-gate",
+      "name": "东区东门",
+      "region": "生活东区",
+      "category": "出入口",
+      "image_position": {
+        "x": 1167,
+        "y": 568
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "west-canteen-3",
+      "name": "西三食堂",
+      "region": "生活西区",
+      "category": "生活",
+      "image_position": {
+        "x": 500,
+        "y": 403
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "west-canteen-4",
+      "name": "西四食堂",
+      "region": "生活西区",
+      "category": "生活",
+      "image_position": {
+        "x": 250,
+        "y": 230
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "west-east-gate",
+      "name": "西区东门",
+      "region": "生活西区",
+      "category": "出入口",
+      "image_position": {
+        "x": 594,
+        "y": 381
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "west-west-gate",
+      "name": "西区西门",
+      "region": "生活西区",
+      "category": "出入口",
+      "image_position": {
+        "x": 200,
+        "y": 174
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "west-teacher",
+      "name": "西区教师宿舍",
+      "region": "生活西区",
+      "category": "生活",
+      "image_position": {
+        "x": 306,
+        "y": 296
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "postdoc",
+      "name": "博士后公寓",
+      "region": "生活西区",
+      "category": "生活",
+      "image_position": {
+        "x": 330,
+        "y": 255
+      },
+      "aliases": [],
+      "planned": false,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    },
+    {
+      "id": "shuren",
+      "name": "树人科技楼",
+      "region": "教学区",
+      "category": "科研",
+      "image_position": {
+        "x": 1165,
+        "y": 1232
+      },
+      "aliases": [],
+      "planned": true,
+      "latitude": null,
+      "longitude": null,
+      "verification_status": "official_document_only",
+      "source_url": "https://www.gdut.edu.cn/info/1715/23413.htm",
+      "source_document_url": "https://www.gdut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1674704880&wbfileid=BC27A786C34B9D3D6D9BE95D1DBBA179",
+      "source_page": 1,
+      "checked_on": "2026-11-23"
+    }
+  ],
+  "roads": []
+}
