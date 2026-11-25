@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+frontend/dist/
+.env
+.env.*
+!.env.example
+.runtime/
+.git/
+.idea/
+.pytest_cache/
+**/__pycache__/
+*.pyc
+docs/
+legacy/
+data/real/
+*.md

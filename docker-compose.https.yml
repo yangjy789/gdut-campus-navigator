@@ -1,0 +1,26 @@
+# 有服务器与域名后使用；不要单独运行，合并基础 compose。
+services:
+  frontend:
+    ports: !reset []
+  backend:
+    ports: !reset []
+    environment:
+      COOKIE_SECURE: 'true'
+      ADMIN_ALLOWED_ORIGINS: https://${PUBLIC_DOMAIN:?请设置解析到服务器的域名}
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      PUBLIC_DOMAIN: ${PUBLIC_DOMAIN:?请设置解析到服务器的域名}
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [frontend]
+    networks: [campus]
+volumes:
+  caddy-data:
+  caddy-config:
